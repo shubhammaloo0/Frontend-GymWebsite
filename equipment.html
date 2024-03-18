@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipments</title>
+
+    <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root{
+    --main-color: rgb(247, 54, 115);
+    --black: #000;
+    --light-color: #868e96;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    /* text-transform: capitalize; */
+    transition: all .2s linear;
+}
+
+::selection{
+    background: var(--main-color);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #000;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+section{
+    padding: 2rem 3%;
+}
+
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+/* .swiper-button-next{
+    color: var(--main-color);
+}
+.swiper-button-prev{
+    color: var(--main-color);
+} */
+
+/* schedule section starts */
+
+.schedule{
+    background: #eee;
+}
+
+.schedule .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.schedule .box-container .box{
+    background-color: #e2e2e2;
+    overflow: hidden;
+    border: .1rem solid #c5c5c5;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    height: 50rem;
+}
+
+.schedule .box-container .box h3{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+/* .schedule .box-container .box .content p{
+    color: #333;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: center;
+} */
+
+.schedule .box-container .box .btn{
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background: var(--main-color);
+    color: #fff;
+}
+
+.schedule .box-container .box a{
+    text-align: center;
+}
+
+.schedule .box-container .box .btn:hover{
+    background: #d8386a;
+}
+
+.schedule .box-container .box img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    /* border: .1rem solid black; */
+}
+
+/* schedule section ends */
+
+    </style>
+
+</head>
+<body>
+
+    <section class="schedule">
+
+        <h1 class="heading"><span>Equipments</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/41FpbBlNhJS._SX679_.jpg" alt="">
+                <h3>USI UNIVERSAL THE UNBEATABLE Olympic Barbell, Weight Lifting Barbell, 25mm Olympic Barbell 5.5 Feet Length.</h3>
+                <a href="https://www.amazon.in/USI-UNIVERSAL-UNBEATABLE-Olympic-Barbell/dp/B0968BKTGH/ref=sr_1_102?crid=17BPV9D42I1U3&keywords=barbell&qid=1679430775&sprefix=barbell%2Caps%2C307&sr=8-102" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51yK79WuZuL._SY879_.jpg" alt="">
+                <h3>Konark Rubber Coated Fixed Weight Lifting Curling Gym Rod/Barbell 40KG Internal Dia 30MM.</h3>
+                <a href="https://www.amazon.in/Konark-Lifting-Curling-Barbell-Internal/dp/B09T9LKFNN/ref=sr_1_114?crid=17BPV9D42I1U3&keywords=barbell&qid=1679430775&sprefix=barbell%2Caps%2C307&sr=8-114" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/41FsDs1k05L._SX300_SY300_QL70_FMwebp_.jpg" alt="">
+                <h3>HASHTAG FITNESS 40 kg Steel Weight Combo with Heavy Duty Chin up bar,Adjustable 5 in 1 Bench,Dumbbell Set,Barbell rods.</h3>
+                <a href="https://www.amazon.in/HASHTAG-FITNESS-Adjustable-Multipurpose-Accessories/dp/B09GKT346L/ref=sr_1_115?crid=17BPV9D42I1U3&keywords=barbell&qid=1679430775&sprefix=barbell%2Caps%2C307&sr=8-115" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81TqwS75uvL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+                <h3>Kore PVC 20-100 Kg Home Gym Set with One 4 Ft Plain + One 3 Ft Curl and One Pair Dumbbell Rods.</h3>
+                <a href="https://www.amazon.in/KORE-Home-Plain-Dumbbell-Multicolour/dp/B08WHN2N5V/ref=sr_1_5?crid=X58ZBJ7GLXFB&keywords=50+kg+weight&qid=1679431723&sprefix=50+kg+we%2Caps%2C262&sr=8-5" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/I/71NvJ-3aFdL._AC_UL480_QL65_.jpg" alt="">
+                <h3>Protoner Blend Squat Stand with Safety Support Adjustable Height (Black and Yellow).</h3>
+                <a href="https://www.amazon.in/Protoner-Safety-Support-Adjustable-Height/dp/B08ZKDRGQ5/ref=sr_1_22?crid=3KNM8DLF52KTS&keywords=squat+stand&qid=1679431939&sprefix=squat+stand%2Caps%2C230&sr=8-22" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/I/71yXAP80SUL._AC_UL480_QL65_.jpg" alt="">
+                <h3>Leeway Adjustable Dumbbell 30kg, Dumbbells Set for Whole Body Workout.</h3>
+                <a href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo0NTYwMjUwMzM3NjQ2ODQ1OjE2Nzk0MzIxOTU6c3BfYnRmOjIwMTI2MDM0MDgwNTk4OjowOjo&url=%2FLEEWAY-Professional-Integrated-Dumbbells-Adjustable%2Fdp%2FB08WK9F71G%2Fref%3Dsr_1_26_sspa%3Fcrid%3D34SC8A8EH3T8S%26keywords%3Dheavy%2Bdumbbell%26qid%3D1679432195%26sprefix%3Dheavy%2Bdumbell%252Caps%252C263%26sr%3D8-26-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81nsu1j0DxL._SX679_.jpg" alt="">
+                <h3>SLOVIC Resistance Tube Band with Sturdy Handles, Door Anchor (5 Pc Full Home Gym Tube Set (4.5-68 kg)).</h3>
+                <a href="https://www.amazon.in/dp/B08H87CXNR?pd_rd_i=B08H87CXNR&pf_rd_p=dd2aa9b8-d653-4b22-af5d-81cb48e44028&pf_rd_r=GFEHDGC1XWKAYW0MWJFP&pd_rd_wg=tXfwT&pd_rd_w=TDeDF&pd_rd_r=82e78f52-c31e-4fec-83f3-8a1fa5be4a73" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61BOydnrJYL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+                <h3>Hand Grip Strengthener, Finger Gripper, Hand Grippers Pack of 2.</h3>
+                <a href="https://www.amazon.in/Hand-Strengthener-Finger-Gripper-Grippers/dp/B09DBWL8DR/ref=sr_1_8?keywords=hand+gripper&qid=1679433347&s=sports&sr=1-8" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51z6pbn27sL._SX679_.jpg" alt="">
+                <h3>ALLYSON FITNESS Adjustable Incline, Decline and Flat Bench for Weight Strength Training, Sit Up - Weight Capacity 350 Kg (Black).</h3>
+                <a href="https://www.amazon.in/ALLYSON-Adjustable-Strength-Training-Fitness/dp/B08F7XK3LV/ref=pd_rhf_d_se_s_pd_crcd_sccl_2_1/257-9617581-1395322?pd_rd_w=aE0Os&content-id=amzn1.sym.dcf9b861-ea71-4cd9-870f-f1d20747f687&pf_rd_p=dcf9b861-ea71-4cd9-870f-f1d20747f687&pf_rd_r=BRAR2Z040AKBQCGQEDBP&pd_rd_wg=OaWkW&pd_rd_r=12e7d3c2-0d7f-4083-ae9a-103bb38939c3&pd_rd_i=B08F7XK3LV&psc=1" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51Scp4qr-YL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+                <h3>ALLYSON FITNESS Pull Up Bar Wall Mounted Chin Up Bar with 2 Ropes with Handles Gym Accessories.</h3>
+                <a href="https://www.amazon.in/ALLYSON-FITNESS-Mounted-Handles-Accessories/dp/B09ZQPTPH7/ref=sr_1_6?keywords=gym+pull+up+bar&qid=1679434243&s=sports&sr=1-6" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71jPRW83CSL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+                <h3>Multi Home Gym Machine All in one equipment's for Multiple Muscle Workout, Multipurpose Function Exercises Others.</h3>
+                <a href="https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDM1NTE4MDY5NjM2MDIyOjE2Nzk0MzQzODM6c3BfYnRmOjIwMDc5NDIxNzUyNjk4OjowOjo&url=%2FZorex-HGZ-1001-equipments-Shoulder-Multicolour%2Fdp%2FB08THRF941%2Fref%3Dsr_1_16_sspa%3Fkeywords%3Dgym%2Bheavy%2Bmachinery%26qid%3D1679434383%26s%3Dsports%26sr%3D1-16-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1%26smid%3DA19NKRVHRK2U8S" target="_blank" class="btn">Buy</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61-X6z9Ms4S._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                <h3>Lifelong FitPro LLTM09 (2.5 HP Peak) Manual Incline Motorized Treadmill for Home with 12 preset Workouts, Max Speed 12km/hr.</h3>
+                <a href="https://www.amazon.in/Lifelong-LLTM09-Motorized-HealthifyMe-Installation/dp/B07R4M527C/ref=sr_1_1?keywords=treadmill&qid=1679434731&s=sports&sr=1-1-catcorr" target="_blank" class="btn">Buy</a>
+            </div>
+            
+
+    </section>
+    
+</body>
+</html>
